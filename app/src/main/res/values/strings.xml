@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">First_Project</string>
+    <string name="app_name">Android basic</string>
+    <string name="Linear_layout">Linear_layout</string>
+    <string name="Relative_layout">Relative_layout</string>
+    <string name="List">List_view</string>
+    <string name="event">Event Handling</string>
+
 </resources>

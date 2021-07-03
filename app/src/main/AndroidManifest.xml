@@ -9,10 +9,16 @@
         android:roundIcon="@mipmap/bat"
         android:supportsRtl="true"
         android:theme="@style/Theme.First_Project">
-        <activity android:name=".List_View"></activity>
-        <activity android:name=".event_handling"></activity>
+        <activity android:name=".LInk_opner"></activity>
+        <activity android:name=".RecyclerView"></activity>
+        <activity android:name=".CardViewSpinner" />
+        <activity android:name=".List_View" />
+        <activity
+            android:name=".event_handling"
+            android:label="Handling"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".Relative_Layout" />
-        <activity android:name=".activity_Linear_layout" />
+        <activity android:name=".Linear_layout" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

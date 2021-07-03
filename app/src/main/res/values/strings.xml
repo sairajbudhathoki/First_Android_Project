@@ -4,5 +4,16 @@
     <string name="Relative_layout">Relative_layout</string>
     <string name="List">List_view</string>
     <string name="event">Event Handling</string>
+    <string name="card_view_spinner">Card view Spinner</string>
+    <string name="Recycler_view">Recycler view</string>
+    <string-array name="names">
+        <item>Nissan</item>
+        <item>Bugatti</item>
+        <item>Lamborghini</item>
+        <item>Hyundai</item>
+        <item>Porsche</item>
+        <item>Aston Martin</item>
+        <item>Ferrari</item>
+    </string-array>
 
 </resources>

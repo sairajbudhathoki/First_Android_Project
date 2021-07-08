@@ -70,10 +70,10 @@
                 android:text="Link Opner" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/navView"
                 android:layout_width="199dp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="NAV" />
 
             <Button
                 android:id="@+id/listview"

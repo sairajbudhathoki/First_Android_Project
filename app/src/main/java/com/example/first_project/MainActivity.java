@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Button CardSpin = findViewById(R.id.card_view);
         Button Recycler = findViewById(R.id.recycler_view);
         Button LinkOpner = findViewById(R.id.link);
+        Button nav = findViewById(R.id.navView);
 
         Linearlayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,6 +78,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent LinkIntent = new Intent(MainActivity.this ,LInk_opner.class);
                 startActivity(LinkIntent);
+            }
+        });
+
+        nav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent navIntent = new Intent(MainActivity.this , NavigationHost.class);
+                startActivity(navIntent);
             }
         });
 

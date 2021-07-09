@@ -14,83 +14,94 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button Linearlayout = findViewById(R.id.Linearlayout);
-        Button Relativelayout = findViewById(R.id.relativelayout);
-        Button Listview = findViewById(R.id.listview);
-        Button Eventhandle = findViewById(R.id.eventhaldling);
-        Button CardSpin = findViewById(R.id.card_view);
-        Button Recycler = findViewById(R.id.recycler_view);
-        Button LinkOpner = findViewById(R.id.link);
-        Button nav = findViewById(R.id.navView);
-
-        Linearlayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent LinearIntent = new Intent(MainActivity.this, Linear_layout.class);
-                LinearIntent.putExtra("destination" , "Comment to win free Lamborghini");
-                startActivity(LinearIntent);
-
-
-            }
-        });
-        Relativelayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent RelativeIntent = new Intent(MainActivity.this , Relative_Layout.class);
-                startActivity(RelativeIntent);
-
-            }
-        });
-        Eventhandle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent EventIntent = new Intent(MainActivity.this , event_handling.class);
-                startActivity(EventIntent);
-
-            }
-        });
-
-        Listview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent ListIntent = new Intent(MainActivity.this ,List_View.class);
-                startActivity(ListIntent);
-            }
-        });
-
-        CardSpin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent CardIntent = new Intent(MainActivity.this , CardViewSpinner.class);
-                startActivity(CardIntent);
-            }
-        });
-
-        Recycler.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent RecyclerIntent = new Intent(MainActivity.this, RecyclerView.class);
-                startActivity(RecyclerIntent);
-            }
-        });
-        LinkOpner.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent LinkIntent = new Intent(MainActivity.this ,LInk_opner.class);
-                startActivity(LinkIntent);
-            }
-        });
-
-        nav.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent navIntent = new Intent(MainActivity.this , NavigationHost.class);
-                startActivity(navIntent);
-            }
-        });
-
+        getSupportFragmentManager().beginTransaction().add(R.id.container1, new Form_main()).commit();
     }
 
-
-    //This is the second commit
 }
+//        Button Linearlayout = findViewById(R.id.Linearlayout);
+//        Button Relativelayout = findViewById(R.id.relativelayout);
+//        Button Listview = findViewById(R.id.listview);
+//        Button Eventhandle = findViewById(R.id.eventhaldling);
+//        Button CardSpin = findViewById(R.id.card_view);
+//        Button Recycler = findViewById(R.id.recycler_view);
+//        Button LinkOpner = findViewById(R.id.link);
+//        Button nav = findViewById(R.id.navView);
+//        Button form = findViewById(R.id.form);
+//
+//        Linearlayout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent LinearIntent = new Intent(MainActivity.this, Linear_layout.class);
+//                LinearIntent.putExtra("destination" , "Comment to win free Lamborghini");
+//                startActivity(LinearIntent);
+//
+//
+//            }
+//        });
+//        Relativelayout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent RelativeIntent = new Intent(MainActivity.this , Relative_Layout.class);
+//                startActivity(RelativeIntent);
+//
+//            }
+//        });
+//        Eventhandle.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent EventIntent = new Intent(MainActivity.this , event_handling.class);
+//                startActivity(EventIntent);
+//
+//            }
+//        });
+//
+//        Listview.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent ListIntent = new Intent(MainActivity.this ,List_View.class);
+//                startActivity(ListIntent);
+//            }
+//        });
+//
+//        CardSpin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent CardIntent = new Intent(MainActivity.this , CardViewSpinner.class);
+//                startActivity(CardIntent);
+//            }
+//        });
+//
+//        Recycler.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent RecyclerIntent = new Intent(MainActivity.this, RecyclerView.class);
+//                startActivity(RecyclerIntent);
+//            }
+//        });
+//        LinkOpner.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent LinkIntent = new Intent(MainActivity.this ,LInk_opner.class);
+//                startActivity(LinkIntent);
+//            }
+//        });
+//
+//        nav.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent navIntent = new Intent(MainActivity.this , NavigationHost.class);
+//                startActivity(navIntent);
+//            }
+//        });
+//        form.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent formIntent = new Intent(MainActivity.this , FormHost.class );
+//                startActivity(formIntent);
+//            }
+//        });
+//
+//    }
+
+
+        //This is the second commit

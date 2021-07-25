@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.first_project">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/bat"
@@ -9,7 +11,13 @@
         android:roundIcon="@mipmap/bat"
         android:supportsRtl="true"
         android:theme="@style/Theme.First_Project">
-        <activity android:name=".FormHost"></activity>
+        <activity android:name=".CurrentlyReadingBook"></activity>
+        <activity android:name=".AlreadyReadBook" />
+        <activity android:name=".Table_layout" />
+        <activity android:name=".Frame_layout" />
+        <activity android:name=".DetailBook" />
+        <activity android:name=".BookActivity" />
+        <activity android:name=".FormHost" />
         <activity android:name=".NavigationHost" />
         <activity android:name=".Second_Fragment" />
         <activity android:name=".First_Fragment" />

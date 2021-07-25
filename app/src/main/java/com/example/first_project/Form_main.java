@@ -84,7 +84,7 @@ public class Form_main extends Fragment {
 
                 FormSecond second = new FormSecond();
                 second.setArguments(bundle);
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container1,second).commit();
+//                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container1,second).commit();
 
             }
         });

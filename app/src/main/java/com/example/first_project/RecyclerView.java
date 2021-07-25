@@ -19,14 +19,14 @@ public class RecyclerView extends AppCompatActivity {
         contactsRecView = findViewById(R.id.recyclerView);
 
         ArrayList<Contact> contacts = new ArrayList<>();
-        contacts.add(new Contact("Lambo","naruto@naruto.com","https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.supercars.net%2Fblog%2F5-awesome-ways-to-customize-your-supercar%2F&psig=AOvVaw2p7w80HQ41vLILmQY5wDBn&ust=1625367922725000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKDxmKL1xfECFQAAAAAdAAAAABA9"));
-        contacts.add(new Contact("Ferrari","zaraki@bleach.com","https://static.cargurus.com/images/article/2021/01/19/10/29/cheap_supercars-pic-2342053860686599989-1600x1200.jpeg"));
-        contacts.add(new Contact("volvo","luffy@onepiece.com","https://media.wired.com/photos/59324ef94dc9b45ccec5d25b/master/pass/hybrid-supers-ft.jpg"));
+        contacts.add(new Contact("Naruto","naruto@naruto.com","https://i.pinimg.com/originals/2a/92/06/2a9206a4a0d1d23cf92636c42115d054.jpg"));
+        contacts.add(new Contact("Zaraki","zaraki@bleach.com","https://static.wikia.nocookie.net/bleach/images/8/8d/572Kenpachi_profile.png/revision/latest?cb=20210417222326&path-prefix=en"));
+        contacts.add(new Contact("Luffy","luffy@onepiece.com","https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200429191518"));
         contacts.add(new Contact("Eren","eren@aot.com","https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/fvtmt2ftcdwprlxz_1615273483.jpeg"));
-        contacts.add(new Contact("Natsu","natsu@fairytale.com","https://speedvegas.com/wp-content/uploads/2020/08/Screen-Shot-2020-01-13-at-10.07.46-AM.png"));
-        contacts.add(new Contact("Elric","elric@alchemist.com","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgF5j2hasOEzcAS3TS9nzva2IZ0OcIZ7IAw&usqp=CAU"));
-        contacts.add(new Contact("Aang","aang@avatar.com","https://i.pinimg.com/564x/c3/e6/e8/c3e6e8514bfc18ea78c315e4231f2006.jpg"));
-        contacts.add(new Contact("Sokka","sokka@avatar.com","https://www.supercars.net/blog/wp-content/uploads/2020/05/mulholland-legend-480-3.jpg"));
+        contacts.add(new Contact("Natsu","natsu@fairytale.com","https://static.wikia.nocookie.net/fairytail/images/c/ca/Natsu_X792.png/revision/latest?cb=20181111122101"));
+        contacts.add(new Contact("Elric","elric@alchemist.com","https://static.wikia.nocookie.net/fma/images/0/08/213254_1407532169190_full.png/revision/latest?cb=20201016012253"));
+        contacts.add(new Contact("Aang","aang@avatar.com","https://static3.srcdn.com/wordpress/wp-content/uploads/2020/06/Avatar-The-Last-Airbender-Old-Aang.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"));
+        contacts.add(new Contact("Sokka","sokka@avatar.com","https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sokka-avatar-the-last-airbender-1590006889.png?resize=480:*"));
 
         ContactRecViewAdapter contactRecViewAdapter = new ContactRecViewAdapter(this);
 
